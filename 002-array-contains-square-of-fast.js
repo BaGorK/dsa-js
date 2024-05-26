@@ -29,6 +29,7 @@ function same(arr1, arr2) {
   console.log(frequencyCounter1, frequencyCounter2); //
   //   { '1': 1, '2': 2, '3': 1 } { '1': 1, '4': 2, '9': 1 }
 
+  // we can loop over an object using the for-in loop
   for (let key in frequencyCounter1) {
     if (!(key ** 2 in frequencyCounter2)) {
       return false;
