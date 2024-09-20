@@ -40,11 +40,11 @@ As I said above, the call stack is a LIFO (last in, first out) data structure, w
 
 When we first call `sumUpTo(5)`, it is added to the call stack. Then, `sumUpTo(4)` is added to the call stack and so on...
 
-<img src="../../assets/images/recursion-stack-1.png" width="500" />
+<img src="../assets/images/recursion-stack-1.png" width="500" />
 
 Once `sumUpTo(1)` is called, it returns 1 and is removed from the call stack. Then, `sumUpTo(2)` returns 3 and is removed from the call stack. This continues until `sumUpTo(5)` returns 15 and is removed from the call stack.
 
-<img src="../../assets/images/recursion-stack-2.png" width="500" />
+<img src="../assets/images/recursion-stack-2.png" width="500" />
 
 We can see this by logging the function calls and the return values:
 
